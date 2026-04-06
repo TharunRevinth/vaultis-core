@@ -106,7 +106,7 @@ body {
 .btn-bank {
     padding: 12px 24px;
     font-weight: 700;
-    border-radius: 6px;
+    border-radius: 0;
     cursor: pointer;
     transition: all 0.2s;
     border: none;
@@ -144,7 +144,7 @@ body {
     color: white;
     padding: 2px 8px;
     font-weight: 800;
-    border-radius: 4px;
+    border-radius: 0;
     margin-right: 16px;
     font-size: 0.7rem;
     letter-spacing: 1px;
@@ -199,7 +199,7 @@ marquee {
 .login-card {
     background: white;
     padding: 48px;
-    border-radius: 12px;
+    border-radius: 0;
     width: 440px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     border-top: 8px solid var(--bank-red);
@@ -226,7 +226,7 @@ marquee {
     padding: 14px;
     margin-bottom: 24px;
     border: 1px solid #e2e8f0;
-    border-radius: 8px;
+    border-radius: 0;
     background: #f8fafc;
     font-weight: 500;
     font-size: 1rem;
@@ -246,7 +246,7 @@ marquee {
     background: var(--bank-red);
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 0;
     cursor: pointer;
     text-transform: uppercase;
     transition: filter 0.2s;
@@ -353,7 +353,7 @@ marquee {
     color: white;
     padding: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.2s;
@@ -422,7 +422,7 @@ marquee {
 /* COMPONENTS */
 .portal-card {
     background: white;
-    border-radius: 8px;
+    border-radius: 0;
     border: 1px solid #e2e8f0;
     padding: 24px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -462,7 +462,7 @@ marquee {
 .flow-card {
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 0;
     border-left: 5px solid #cbd5e1;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     border: 1px solid #e2e8f0;
@@ -470,7 +470,7 @@ marquee {
 }
 
 .flow-card.inflow {
-    border-left-color: #10b981;
+    border-left-color: #0dda0a;
 }
 
 .flow-card.outflow {
@@ -495,7 +495,7 @@ marquee {
 /* TABLES */
 .table-container {
     background: white;
-    border-radius: 8px;
+    border-radius: 0;
     border: 1px solid #e2e8f0;
     overflow: hidden;
 }
@@ -530,7 +530,7 @@ marquee {
     background: #fee2e2;
     color: #ef4444;
     padding: 4px 8px;
-    border-radius: 4px;
+    border-radius: 0;
     font-size: 0.65rem;
     font-weight: 900;
     text-transform: uppercase;
@@ -539,9 +539,9 @@ marquee {
 
 .badge-verified {
     background: #dcfce7;
-    color: #10b981;
+    color: #11e60d;
     padding: 4px 8px;
-    border-radius: 4px;
+    border-radius: 0;
     font-size: 0.75rem;
     font-weight: 800;
 }
@@ -575,7 +575,7 @@ marquee {
     color: white;
     border: none;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 0;
     font-size: 0.75rem;
     font-weight: 800;
     cursor: pointer;
@@ -587,7 +587,7 @@ marquee {
     color: white;
     border: none;
     padding: 4px 10px;
-    border-radius: 4px;
+    border-radius: 0;
     font-size: 0.65rem;
     font-weight: 800;
     cursor: pointer;
@@ -599,7 +599,7 @@ marquee {
     font-weight: 800;
     background: #f1f5f9;
     padding: 8px 16px;
-    border-radius: 6px;
+    border-radius: 0;
     color: var(--bank-navy);
 }
 
@@ -617,7 +617,7 @@ marquee {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 0;
 }
 
 .sidebar-card.bg-light {
@@ -641,7 +641,7 @@ marquee {
     margin-bottom: 24px;
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 0;
     border: 1px solid #e2e8f0;
 }
 
@@ -661,7 +661,7 @@ marquee {
 .filter-group input {
     padding: 8px 12px;
     border: 1px solid #e2e8f0;
-    border-radius: 4px;
+    border-radius: 0;
     font-size: 0.9rem;
 }
 
@@ -670,7 +670,7 @@ marquee {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 700;
     cursor: pointer;
 }
@@ -687,7 +687,7 @@ marquee {
     background: white;
     border: 1px solid #e2e8f0;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 700;
     color: var(--text-gray);
     cursor: pointer;
@@ -727,7 +727,7 @@ marquee {
 .profile-grid input {
     padding: 12px;
     border: 1px solid #e2e8f0;
-    border-radius: 6px;
+    border-radius: 0;
     font-size: 1rem;
 }
 
@@ -750,7 +750,7 @@ marquee {
     background: white;
     padding: 40px;
     width: 440px;
-    border-radius: 12px;
+    border-radius: 0;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     position: relative;
 }
@@ -767,7 +767,7 @@ marquee {
     padding: 12px;
     margin-bottom: 16px;
     border: 1px solid #e2e8f0;
-    border-radius: 6px;
+    border-radius: 0;
     font-size: 1rem;
 }
 
@@ -792,7 +792,7 @@ marquee {
     flex: 1;
     padding: 12px;
     font-weight: 700;
-    border-radius: 6px;
+    border-radius: 0;
     cursor: pointer;
     border: none;
 }
@@ -855,7 +855,7 @@ marquee {
 .product-card {
     background: white;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 0;
     border: 1px solid #e2e8f0;
     text-align: center;
     transition: transform 0.3s;
@@ -868,7 +868,7 @@ marquee {
 .prod-img {
     height: 180px;
     background: #f1f5f9;
-    border-radius: 8px;
+    border-radius: 0;
     margin-bottom: 20px;
     background-size: cover;
     background-position: center;

@@ -204,7 +204,7 @@
                                     </label>
                                     <div style="position: relative;">
                                         <input type="number" id="trans-dest-acc" placeholder="Recipient ID"
-                                            style="width: 100%; padding: 16px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 1.1rem; font-weight: 700; background: #f8fafc;">
+                                            style="width: 100%; padding: 16px; border: 1px solid #e2e8f0; border-radius: 0; font-size: 1.1rem; font-weight: 700; background: #f8fafc;">
                                     </div>
                                 </div>
 
@@ -225,8 +225,8 @@
                                     <div style="position: relative; display: flex; align-items: center;">
                                         <span
                                             style="position: absolute; left: 16px; font-size: 1.5rem; font-weight: 900; color: var(--bank-navy);">₹</span>
-                                        <input type="number" id="trans-amount" placeholder="0.00"
-                                            style="width: 100%; padding: 16px 16px 16px 45px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 1.8rem; font-weight: 900; color: var(--bank-red); background: #f8fafc;">
+                                        <input type="number" id="trans-amount" min="0" placeholder="0.00"
+                                            style="width: 100%; padding: 16px 16px 16px 45px; border: 1px solid #e2e8f0; border-radius: 0; font-size: 1.8rem; font-weight: 900; color: var(--bank-red); background: #f8fafc;">
                                     </div>
                                     <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 10px; font-weight: 600;">
                                         Funds will be deducted from your liquid balance instantly.</p>
@@ -260,8 +260,8 @@
                                     <div style="position: relative; display: flex; align-items: center;">
                                         <span
                                             style="position: absolute; left: 16px; font-size: 1.5rem; font-weight: 900; color: var(--bank-navy);">₹</span>
-                                        <input type="number" name="amount" placeholder="0.00"
-                                            style="width: 100%; padding: 16px 16px 16px 45px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 1.8rem; font-weight: 900; color: #10b981; background: #f8fafc;">
+                                        <input type="number" name="amount" min="0" placeholder="0.00"
+                                            style="width: 100%; padding: 16px 16px 16px 45px; border: 1px solid #e2e8f0; border-radius: 0; font-size: 1.8rem; font-weight: 900; color: #10b981; background: #f8fafc;">
                                     </div>
                                     <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 10px; font-weight: 600;">
                                         Assets will be synchronized across the WASM network.</p>
@@ -297,8 +297,8 @@
                                     <div style="position: relative; display: flex; align-items: center;">
                                         <span
                                             style="position: absolute; left: 16px; font-size: 1.5rem; font-weight: 900; color: var(--bank-navy);">₹</span>
-                                        <input type="number" name="amount" placeholder="0.00"
-                                            style="width: 100%; padding: 16px 16px 16px 45px; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 1.8rem; font-weight: 900; color: var(--bank-red); background: #f8fafc;">
+                                        <input type="number" name="amount" min="0" placeholder="0.00"
+                                            style="width: 100%; padding: 16px 16px 16px 45px; border: 1px solid #e2e8f0; border-radius: 0; font-size: 1.8rem; font-weight: 900; color: var(--bank-red); background: #f8fafc;">
                                     </div>
                                     <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 10px; font-weight: 600;">
                                         Debit requires verified session authorization.</p>

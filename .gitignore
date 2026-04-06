@@ -5,3 +5,4 @@ backup_ui/
 /backup_ui/
 .DS_Store
 *.log
+.vscode/

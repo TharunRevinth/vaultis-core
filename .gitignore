@@ -6,3 +6,13 @@ backup_ui/
 .DS_Store
 *.log
 .vscode/
+
+# Vaultis Build & Database Artifacts
+target/
+*.exe
+accounts.json
+accounts_db.txt
+transactions_ledger.log
+*.txt
+!README.md
+!main.cpp

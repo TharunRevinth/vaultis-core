@@ -1,12 +1,12 @@
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const app = express();
 const PORT = 3001;
 
 const config = {
-  supabaseUrl: "https://addghapkcuhowzxkmtdh.supabase.co",
-  supabaseKey:
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFkZGdoYXBrY3Vob3d6eGttdGRoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ3NzcyOTYsImV4cCI6MjA5MDM1MzI5Nn0._fpsJ7DRlM6uv9ZEuUSQ8mgouVBoHgX_AmHJ-4aKhWw",
+  supabaseUrl: process.env.SUPABASE_URL,
+  supabaseKey: process.env.SUPABASE_KEY,
 };
 
 // Disable Caching to force the new design to show
